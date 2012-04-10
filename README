@@ -1,0 +1,12 @@
+This script and supplement files are used to create maps 
+using pankdm project https://github.com/pankdm/mkgmap-maptourist-style
+from http://openstreetmap.org with http://maptourist.org configs
+
+== Installation
+- Download configs from https://github.com/pankdm/mkgmap-maptourist-style and put it in current folder.
+- Create folder with desired map name and put run.sh there.
+- Edit run.sh according to your needs (set $map_url, $NAME, $ID, $CODEPAGE,
+  $maptourist variables)
+
+== Usage
+- Execute run.sh. It will download map, all neccessary tools and build *.img files.
